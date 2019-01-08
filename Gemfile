@@ -17,7 +17,7 @@ gem 'paperclip', '~> 4.2.0'
 gem 'masonry-rails', '~> 0.2.1'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'rolify', :git => 'git://github.com/EppO/rolify.git'
-
+gem 'pg', '~> 0.20'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -45,7 +45,7 @@ group :development do
 end
 
 group :production do
-	gem 'pg'
+	gem 'pg', '~> 0.20'
 	gem 'rails_12factor'
 end
 
