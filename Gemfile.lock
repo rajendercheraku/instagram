@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/EppO/rolify.git
+  revision: 285c5afc38adc9a37594f523b5e748ea37766562
+  specs:
+    rolify (5.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -206,6 +212,7 @@ DEPENDENCIES
   pg
   rails (= 4.2.8)
   rails_12factor
+  rolify!
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   simple_form (~> 3.0.2)
